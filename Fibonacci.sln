@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Service", "Fibonacci.Service\Fibonacci.Service.csproj", "{1CA97A4E-B408-44B1-83C6-0EAC8E042E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Api", "Fibonacci.Api\Fibonacci.Api.csproj", "{703C7EF8-57BA-42C5-A562-202A67D330DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Tests", "Fibonacci.Tests\Fibonacci.Tests.csproj", "{DAD04428-80A9-4DB1-B040-B6739D8A83C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{FA0766C8-91BB-4B05-B42D-7CC90035F229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B0013C17-78DE-4F0A-9D8D-8DECE6B3F176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3322C199-034C-4352-92A0-089CF9945786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA97A4E-B408-44B1-83C6-0EAC8E042E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA97A4E-B408-44B1-83C6-0EAC8E042E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA97A4E-B408-44B1-83C6-0EAC8E042E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA97A4E-B408-44B1-83C6-0EAC8E042E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703C7EF8-57BA-42C5-A562-202A67D330DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703C7EF8-57BA-42C5-A562-202A67D330DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703C7EF8-57BA-42C5-A562-202A67D330DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703C7EF8-57BA-42C5-A562-202A67D330DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD04428-80A9-4DB1-B040-B6739D8A83C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD04428-80A9-4DB1-B040-B6739D8A83C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD04428-80A9-4DB1-B040-B6739D8A83C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD04428-80A9-4DB1-B040-B6739D8A83C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{703C7EF8-57BA-42C5-A562-202A67D330DE} = {FA0766C8-91BB-4B05-B42D-7CC90035F229}
+		{1CA97A4E-B408-44B1-83C6-0EAC8E042E67} = {B0013C17-78DE-4F0A-9D8D-8DECE6B3F176}
+		{DAD04428-80A9-4DB1-B040-B6739D8A83C1} = {3322C199-034C-4352-92A0-089CF9945786}
+	EndGlobalSection
+EndGlobal
